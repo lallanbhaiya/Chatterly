@@ -73,7 +73,7 @@ fun SignUp(
         OutlinedTextField(
             value = lastName ,
             onValueChange = {lastName = it},
-            label = { Text(text = "Last Time") },
+            label = { Text(text = "Last Name") },
             modifier = Modifier
                 .fillMaxWidth()
                 .padding(8.dp)
